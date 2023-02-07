@@ -1,0 +1,35 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="DemoGame\**" />
+    <EmbeddedResource Remove="DemoGame\**" />
+    <None Remove="DemoGame\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="512x512.png" />
+    <None Remove="Assets\512x512.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Assets\512x512.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\NinoGameEngine\NinoGameEngine.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="512x512.png" />
+  </ItemGroup>
+
+</Project>

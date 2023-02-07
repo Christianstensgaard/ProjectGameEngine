@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32127.271
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NinoGameEngine", "NinoGameEngine\NinoGameEngine.csproj", "{C12521DA-EAB3-461D-9145-8236108A2D37}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Engine", "Engine", "{E362726A-BB9D-4EC3-8E57-7A3A31E9C6D6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Demo", "Demo", "{92B208E1-7C0A-4E5C-A3D8-A6C3CDF2E671}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DemoGame", "DemoGame\DemoGame.csproj", "{1D69A39E-86B4-4148-AF61-831A36CF0131}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C12521DA-EAB3-461D-9145-8236108A2D37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C12521DA-EAB3-461D-9145-8236108A2D37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C12521DA-EAB3-461D-9145-8236108A2D37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C12521DA-EAB3-461D-9145-8236108A2D37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D69A39E-86B4-4148-AF61-831A36CF0131}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D69A39E-86B4-4148-AF61-831A36CF0131}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D69A39E-86B4-4148-AF61-831A36CF0131}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D69A39E-86B4-4148-AF61-831A36CF0131}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{C12521DA-EAB3-461D-9145-8236108A2D37} = {E362726A-BB9D-4EC3-8E57-7A3A31E9C6D6}
+		{1D69A39E-86B4-4148-AF61-831A36CF0131} = {92B208E1-7C0A-4E5C-A3D8-A6C3CDF2E671}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {797EFAB2-9107-4CB3-A9DC-62038DE3A7CC}
+	EndGlobalSection
+EndGlobal
